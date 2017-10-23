@@ -1,6 +1,12 @@
-# Multi Party
+日本語 | [English](./README.en.md)
 
-[日本語](./README.md) | [English](./README.en.md)
+# Deprecated!
+
+このレポジトリは、2018年3月に提供を終了する旧SkyWayのAndroid SDK向けMultiPartyライブラリです。[新しいSkyWay](https://webrtc.ecl.ntt.com/?origin=skyway)への移行をお願いします。
+
+すでに新しいSkyWayをご利用の方は、[MeshRoomクラス](https://webrtc.ecl.ntt.com/android-reference/classio_1_1skyway_1_1_peer_1_1_mesh_room.html)および[SFURoomクラス](https://webrtc.ecl.ntt.com/android-reference/classio_1_1skyway_1_1_peer_1_1_s_f_u_room.html)をご覧ください。
+
+# Multi Party
 
 SkyWay( http://nttcom.github.io/skyway/ )を用い、多人数参加のグループビデオチャットを簡単に開発できるAndroid向けのライブラリです。
 
@@ -12,11 +18,11 @@ SkyWay( http://nttcom.github.io/skyway/ )を用い、多人数参加のグルー
 
 ### MultiParty
 
-####プロパティ
+#### プロパティ
 * opened (boolean)
     * MultiPartyの接続状態
 
-####コンストラクタ
+#### コンストラクタ
 ```java
 Context context = getApplicationContext();
 
@@ -369,8 +375,6 @@ party.listAllPeers(new OnCallback() {
     }
 });
 ```
-
-
 
 ## LICENSE & Copyright
 

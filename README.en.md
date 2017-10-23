@@ -1,8 +1,14 @@
+[日本語](./README.md) | English
+
+# Deprecated!
+
+We have released a new WebRTC platform, [ECLWebRTC](https://webrtc.ecl.ntt.com/en/?origin=skyway), to take the place of SkyWay. We will be shutting down the SkyWay servers in March 2018. Customers who are currently using SkyWay are required to migrate to ECLWebRTC by then or their services will stop working.
+
+If you are looking for the repository of ECLWebRTC, please use [MeshRoom Class](https://webrtc.ecl.ntt.com/en/android-reference/classio_1_1skyway_1_1_peer_1_1_mesh_room.html) and [SFURoom Class](https://webrtc.ecl.ntt.com/en/android-reference/classio_1_1skyway_1_1_peer_1_1_s_f_u_room.html).
+
 # Multi Party
 
-[日本語](./README.md) | [English](./README.en.md)
-
-This is a library for easy implementation of group video chat with SkyWay(http://nttcom.github.io/skyway/) for Android.
+This is a library for easy implementation of group video chat with [SkyWay](http://nttcom.github.io/skyway/) for Android.
 
 ### Setting
 
@@ -12,11 +18,11 @@ This is a library for easy implementation of group video chat with SkyWay(http:/
 
 ### MultiParty
 
-####Property
+#### Property
 * opened (boolean)
     * Is true if the connection is open.
 
-####Constructor
+#### Constructor
 ```java
 Context context = getApplicationContext();
 
